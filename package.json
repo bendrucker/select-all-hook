@@ -28,7 +28,6 @@
     "index.js"
   ],
   "dependencies": {
-    "ap": "~0.2.0",
     "select-hook": "~1.0.0"
   }
 }

@@ -25,9 +25,15 @@ function render (state) {
 
 ## API
 
-#### `SelectAllHook()` -> `object`
+#### `SelectAllHook([predicate])` -> `object`
 
 Creates a virtual-dom hook that will select all text in the target element.
+
+##### predicate
+
+Type: `function`
+
+An optional function predicate. If provided, the hook will only be applied when the predicate evaluates to truthy.
 
 
 ## License

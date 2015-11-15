@@ -1,6 +1,9 @@
 'use strict'
 
-var partial = require('ap').partial
 var SelectHook = require('select-hook')
 
-module.exports = partial(SelectHook, {start: 0, end: 9999})
+module.exports = function SelectAllHook (predicate) {
+  if (typeof predicate !== 'function' || predicate()) {
+    return SelectHook({start: 0, end: 9999})
+  }
+}
