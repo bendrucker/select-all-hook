@@ -1,7 +1,7 @@
 {
   "name": "select-all-hook",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "virtual-dom hook for selecting all text in an element",
   "license": "MIT",
   "repository": "bendrucker/select-all-hook",
