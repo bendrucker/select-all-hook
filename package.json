@@ -1,0 +1,34 @@
+{
+  "name": "select-all-hook",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "virtual-dom hook for selecting all text in an element",
+  "license": "MIT",
+  "repository": "bendrucker/select-all-hook",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "select",
+    "all",
+    "hook",
+    "setSelectionRange",
+    "virtual-dom"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "ap": "~0.2.0",
+    "select-hook": "~1.0.0"
+  }
+}
