@@ -1,4 +1,4 @@
-# select-all-hook [![Build Status](https://travis-ci.org/bendrucker/select-all-hook.svg?branch=master)](https://travis-ci.org/bendrucker/select-all-hook)
+# select-all-hook [![Build Status](https://travis-ci.org/bendrucker/select-all-hook.svg?branch=master)](https://travis-ci.org/bendrucker/select-all-hook) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/select-all-hook.svg)](https://greenkeeper.io/)
 
 > virtual-dom hook for selecting all text in an element
 
